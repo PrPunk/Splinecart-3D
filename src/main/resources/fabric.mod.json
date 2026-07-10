@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "splinecart-3d",
+	"version": "${version}",
+	"name": "Splinecart 3D",
+	"description": "Make Splinecart Tracks 3D - meant to be used with Acutally 3D Blocks & Items resource pack.",
+	"authors": [
+		"Josiah Schatz"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC BY-NC 4.0",
+	"icon": "assets/splinecart-3d/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"name.jschatz.Splinecart3D"
+		]
+	},
+	"mixins": [
+		"splinecart-3d.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.3",
+		"java": ">=21",
+		"fabric-api": "*",
+		"splinecart": "*"
+	}
+}
